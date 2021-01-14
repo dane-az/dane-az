@@ -11,5 +11,192 @@
 <a href="https://stackoverflow.com/users/0" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="0" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/java/java-original-wordmark.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> </p>
+<div class="ghost-canvas">
+            <div class="ghost-body">
+                <div class="ghost-body-copy">
+                    
+                </div>
+                <div class="ghost-head">
+                    <div class="eye-left"></div>
+                    <div class="eye-right"></div>
+                    <div class="mouth"></div>
+                </div>
+                <div class="down-bubble">
+                    <div class="bubble-1"></div>
+                    <div class="bubble-2"></div>
+                    <div class="bubble-3"></div>
+                    <div class="bubble-4"></div>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+        /*
+Simple animated ghost from @MirkoWD
+
+Setup:
+-Remove .body 
+-To remove the animation simply delete the code inside the ANIMATION tags
+-The image is fully responsive, simple change the height and width of .ghost-canvas 
+*/
+
+body{
+    background-color: #0E0735;
+}
+/*Canvas that contains the ghost, change this values to move around ar resize the ghost*/
+.ghost-canvas{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 100px auto 0 auto;
+}
+
+.ghost-body{
+    position: absolute;
+    height: 28%;
+    width: 22%;
+    background-color: white;
+    left: 40%;
+    top:  33%;
+  /*ANIMATION START*/
+    animation-name: floating;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+  /*ANIMATION END*/
+}
+.ghost-body-copy{
+    position: absolute;
+    height: 28%;
+    width: 22%;
+    background-color: white;
+    left: 40%;
+    top:  33%;
+    z-index: 1;
+}
+
+.ghost-head{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -50%;
+    background-color: white;
+    border-radius: 90px;
+    
+}
+.eye-right{
+    position: absolute;
+    height: 22%;
+    width: 20%;
+    right: 22%;
+    top: 40%;
+    background-color: black;
+    border-radius: 50%;
+}
+.eye-left{
+    position: absolute;
+    height: 22%;
+    width: 20%;
+    left: 22%;
+    top: 40%;
+    background-color: black;
+    border-radius: 50%;
+}
+.mouth{
+    position: absolute;
+    height: 26%;
+    width: 24%;
+    left: 38%;
+    top: 70%;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 2
+}
+.down-bubble{
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    top:70%;
+}
+
+.bubble-1{
+    position: absolute;
+    height: 100%;
+    width:25%;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  /*ANIMATION START*/
+    animation-name: bubble;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+  /*ANIMATION END*/
+}
+.bubble-2{
+    position: absolute;
+    height: 100%;
+    width:25%;
+    left: 25%;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  /*ANIMATION START*/
+    animation-name: bubble;
+    animation-duration: 3.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+  /*ANIMATION END*/
+}
+.bubble-3{
+    position: absolute;
+    height: 100%;
+    width:25%;
+    right: 25%;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  /*ANIMATION START*/
+    animation-name: bubble;
+    animation-duration: 3.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+  /*ANIMATION END*/
+}
+.bubble-4{
+    position: absolute;
+    height: 100%;
+    width:25%;
+    right: 0;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  /*ANIMATION START*/
+    animation-name: bubble;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+  /*ANIMATION END*/
+}
+
+/*ANIMATION START*/
+@keyframes bubble{
+    0%{
+        top: 0;
+    }
+    50%{
+        top:20%;
+    }
+     100%{
+        top: 0;
+    }
+}
+@keyframes floating{
+    0%{top: 33%;}
+    30%{top: 40%;}
+    50%{top:33%;}
+    70%{top:25%;}
+    100%{top:33%;}
+}
+/*ANIMATION END*/
+</style>
