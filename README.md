@@ -5,3 +5,12 @@
 
 - 🌱 I’m currently optimizing my skills on **OpenSoure/Code beautify**
 
+
+Stats? Here
+
+<p align="center">
+  <a href="https://github.com/ELITE-DANE" class="rich-diff-level-one">
+    <img src="https://github-readme-stats.vercel.app/api?username=ELITE-DANE&title_color=333&text_color=777" alt="DANE's Stats" >
+  </a>
+</p>
+
