@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm DANE</h1>
+<h1 align="center">Hi 👋, I'm Sebastian</h1>
 <h3 align="center">Selftaught Fullstack Developer from Germany, EUROPE</h3>
 
 ### Languages and Tools
@@ -18,8 +18,8 @@
 ### Statistics
 
 <p align="center">
-  <a href="https://github.com/ELITE-DANE" class="rich-diff-level-one">
-    <img src="https://github-readme-stats.vercel.app/api?username=ELITE-DANE&title_color=333&text_color=777" alt="DANE's Stats" >
+  <a href="https://github.com/sebastian-guenter" class="rich-diff-level-one">
+    <img src="https://github-readme-stats.vercel.app/api?username=sebastian-guenter&title_color=333&text_color=777" alt="DANE's Stats" >
   </a>
 </p>
 
