@@ -12,16 +12,3 @@
 <img align="left" alt="Java" width="35px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />
 <img align="left" alt="Vue" width="35px" src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg" />
 
-<br />
-
-
-### Statistics
-
-<p align="center">
- <a href="https://github.com/sebastian-guenter" class="rich-diff-level-one">
-    <img src="https://github-readme-stats.vercel.app/api?username=sebastian-guenter&theme=vue-dark&show_icons=true&hide_border=false&count_private=true" alt="DANE's Stats" >
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=sebastian-guenter&theme=vue-dark&hide_border=false" alt="DANE's Stats" >
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sebastian-guenter&theme=vue-dark&show_icons=true&hide_border=false&layout=compact" alt="DANE's Stats" >
-  </a>
-</p>
-
