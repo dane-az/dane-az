@@ -11,4 +11,4 @@
 <img align="left" alt="Node.js" width="35px" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-plain-wordmark.svg" />
 <img align="left" alt="Java" width="35px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />
 <img align="left" alt="Vue" width="35px" src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg" />
-
+<img align="left" alt="Vue" width="35px" src="https://github.com/devicons/devicon/blob/master/icons/reactjs/reactjs-original.svg" />
